@@ -6,6 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Registro</title>
     <link rel="stylesheet" href="css/registro.css">
+    <link rel="stylesheet" href="css/registro2.css">
 </head>
 <body>
     <header>
@@ -21,28 +22,70 @@
     </header>
 
     <main>
+
+<!--Pagina de Datos Personales-->
+
         <div class="contenedor-datPersonales">
             <form action="" class="form-datos">
-                <input type="text" name="" id="" class="inpNomApe" placeholder="Nombre y Apellido">
-                <input type="number" name="" id="" class="inpDni" placeholder="Dni">
-                <input type="date" name="fechaNacimiento" id="" class="inpFechNac">
-                <input type="text" name="" id="" class="inpDomic" placeholder="Domicilio">
-                <input type="tel" name="" id="" class="inpTel" placeholder="Telefono / Celular">
-                <input type="email" name="" id="" class="inpEmail" placeholder="Email">
+                <input type="text" name="" id="" class="inp-datos" placeholder="Nombre y Apellido" autofocus>
+                <input type="number" name="" id="" class="inp-datos" placeholder="Dni">
+                <input type="date" name="fechaNacimiento" id="" class="inp-datos">
+                <input type="text" name="" id="" class="inp-datos" placeholder="Domicilio">
+                <input type="tel" name="" id="" class="inp-datos" placeholder="Telefono / Celular">
+                <input type="email" name="" id="" class="inp-datos" placeholder="Email">
             </form>
             <div class="contenedor-btnsiguiente">
                 <button id="btnSiguiente" class="btnSiguiente">Siguiente >>></button>
             </div>
         </div>
 
-        <div class="contenedor-Formacion ocultar" >
-            <form action="" class="form-formacion" id="form-formacion">
-                <input type="text" name="" id="" placeholder="Ingresa el nombre del Titulo o Cursos">
-                
-            </form>
-            <div class="contenedor-btnsiguiente">
-                <button class="btnAgregar">Agregar +</button>
+
+
+<!--Pagina de Formacion Academica-->
+
+        <div class="contenedor-formacion ocultar">
+            <div class="contenedor-input">
+                <input type="text" id="myInput" class="inp-formacion" placeholder="Titulo o Certificaciones..." autofocus>
             </div>
+
+            <div class="contenedor-agregar">
+                <button class="btn-agregar">Agregar +</button>
+            </div>
+
+            <div class="contenedor-lista">
+                <ul id="myUL" class="lista-nueva">
+
+                </ul>
+            </div>
+
+            <div class="contenedor-btnsiguiente2">
+                <button id="" class="btn-siguiente2">Siguiente >>></button>
+            </div>
+        </div>
+
+
+<!--Pagina de Links de Proyectos-->
+
+        <div class="contenedor-links ocultar">
+            <div class="contenedor-inplink">
+                <input type="text" id="myInput" class="inp-link" placeholder="Titulo o Certificaciones..." autofocus>
+            </div>
+
+            <div class="contenedor-agregarlink">
+                <button class="btn-agregarlink">Agregar +</button>
+            </div>
+
+            <div class="contenedor-lista2">
+                <ul id="myUL2" class="lista-nueva2">
+                    <li>Hit the gym</li>
+                    <li>Pay bills</li>
+                    <li>Meet George</li>
+                    <li>Buy eggs</li>
+                    <li>Read a book</li>
+                    <li>Organize office</li>
+                </ul>
+            </div>
+
         </div>
 
     </main>
@@ -53,6 +96,6 @@
 
 
 
-    <script src="js/datos.js"></script>
+    <script src="js/registro.js"></script>
 </body>
 </html>

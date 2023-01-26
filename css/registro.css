@@ -59,7 +59,7 @@ main{
     grid-template-rows: repeat(6, 0.7fr);
     grid-row-gap: 10px;
 }
-input{
+.inp-datos{
     width: 80%;
     height: 35px;
     border-radius: 10px;
@@ -71,7 +71,7 @@ input{
     border-color: aliceblue;
     color: rgba(0, 0, 0, 0.486);
 }
-input:focus{
+.inp-datos:focus{
     box-shadow: 0px 0px 30px 2px rgb(64, 230, 252);
     transform: scale(1.02);
 }
@@ -102,42 +102,6 @@ input:focus{
     box-shadow: 0px 0px 30px 2px rgb(64, 230, 252);
     transform: scale(1.02);
 }
-
-
-
-/*Formacion Academica*/
-.form-formacion{
-    width:60%;
-    margin: 40px auto;
-    display: grid;
-    grid-template-rows: repeat(6, 0.7fr);
-    grid-row-gap: 10px;
-}
-.btnAgregar{
-    width: 200px;
-    margin: 10px auto;
-    padding: 5px 5px;
-    text-align: center;
-    font-size: 16px;
-    font-weight: bold;
-    border-radius: 15px;
-    background-color: rgba(44, 153, 255, 0.281);
-    border-color: aliceblue;
-    transition: .5s all;
-}
-.btnAgregar:hover{
-    box-shadow: 0px 0px 30px 2px rgb(64, 230, 252);
-    transform: scale(1.02);
-}
-.btnAgregar:focus{
-    box-shadow: 0px 0px 30px 2px rgb(64, 230, 252);
-    transform: scale(1.02);
-}
-
-
-
-
-
 
 /*------------------------------------FOOTER----------------------------------------------*/
 footer{
