@@ -1,0 +1,113 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    width: auto;
+    background: linear-gradient(90deg,rgb(98, 0, 255), rgb(35, 7, 158),rgba(19, 19, 41, 0.432),rgb(22, 151, 202), blue);
+    background-size: 600% 600%;
+    animation: cambiaColor 30s ease infinite;
+}
+
+
+/*--------------------------------------HEADER------------------------------------------------------*/
+header{
+    width: 100%;
+    margin: 0 auto;
+    display: grid;
+    grid-template-columns: 0.25fr 1fr 2fr;
+    grid-gap: 10px;
+    border-bottom: 5px solid rgba(161, 161, 161, 0.205);
+}
+
+.contenedor-imgH{
+    margin: 20px;
+}
+.logo{
+    width: 60px;
+    border-radius: 50px;
+    transition: 2s all;
+}
+.logo:hover{
+    transform: rotateY(360deg);
+    box-shadow: 0px 0px 30px 3px rgb(53, 208, 255);
+}
+
+.contenedor-titulo h1{
+    margin-top: 30px;
+    text-align: left;
+}
+
+
+.contenedor-nav{
+    margin: 20px auto;
+}
+.contenedor-lista{
+    margin: 20px auto;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-gap: 15px;
+}
+button{
+    width: 200px;
+    padding: 10px 5px;
+    text-align: center;
+    list-style: none;
+    border-radius: 15px;
+    background-color: rgba(44, 153, 255, 0.281);
+    border-color: aliceblue;
+    transition: .5s all;
+}
+
+button:hover{
+    box-shadow: 0px 0px 30px 2px rgb(64, 230, 252);
+    transform: scale(1.02);
+}
+.lista-items{
+    list-style: none;
+}
+
+a{
+    color: rgb(160, 255, 255);
+    text-decoration: none;
+    font-size: 17px;
+    font-weight: bold;
+}
+
+/*-------------------------------------MAIN------------------------------------------------*/
+main{
+    width: 100%;
+    margin: auto;
+}
+
+
+
+
+
+
+
+
+
+
+
+/*------------------------------------FOOTER----------------------------------------------*/
+footer{
+    width: 20px auto;
+    border-top: 5px solid rgba(161, 161, 161, 0.205);
+}
+footer p{
+    text-align: center;
+    margin-top: 30px;
+    font-size: 16px;
+    color: rgba(253, 253, 253, 0.932);
+
+}
+
+/*-------------------------------ANIMACIONES--------------------------------------*/
+
+@keyframes cambiaColor{
+    0%{background-position: 0 50%;}
+    50%{background-position: 100% 50%;}
+    100%{background-position: 0 50%;}
+
+}
