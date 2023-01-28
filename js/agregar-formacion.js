@@ -1,28 +1,4 @@
-var btnSiguiente = document.querySelector(".btnSiguiente");
-var btnSiguiente2 = document.querySelector(".btn-siguiente2");
 var btnAgregar = document.querySelector(".btn-agregar");
-
-function Siguiente(){
-    let objeto = document.querySelector(".contenedor-datPersonales");
-    let titulo = document.querySelector(".titulo-secundario");
-    let contenedorFormacion = document.querySelector(".contenedor-formacion");
-
-    titulo.textContent = "Formacion Academica";
-    objeto.classList.add("ocultar");
-    contenedorFormacion.classList.remove("ocultar");
-
-}
-
-function Siguiente2(){
-    let titulo = document.querySelector(".titulo-secundario");
-    let contenedorFormacion = document.querySelector(".contenedor-formacion");
-    let links = document.querySelector(".contenedor-links");
-
-    titulo.textContent = "Links de Proyectos";
-    contenedorFormacion.classList.add("ocultar");
-    links.classList.remove("ocultar");
-}
-
 
 /*----------------------------------------------------------------------------------------------------------*/ 
 function crearElemento() {
@@ -87,6 +63,4 @@ list.addEventListener('click', function(ev) {
 /*----------------------------------------------------------------------------------------------------------*/ 
 
 
-btnSiguiente2.addEventListener("click", Siguiente2);
-btnSiguiente.addEventListener("click", Siguiente);
 btnAgregar.addEventListener("click", crearElemento);

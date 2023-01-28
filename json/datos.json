@@ -1,0 +1,30 @@
+{
+    "persona":[
+        {
+            "nombre_apellido":"Ale Grimaldi",
+            "dni":36420807,
+            "fecha_nacimiento": "06/11/1991",
+            "domicilio": "Lomas sec8",
+            "telefono": 3816699521,
+            "email": "grimaldalejandro0@gmail.com"
+        },
+
+        {
+            "nombre_apellido":"Oscar Grimaldi",
+            "dni":14414265,
+            "fecha_nacimiento": "06/11/1971",
+            "domicilio": "Lomas sec8",
+            "telefono": 3816633221,
+            "email": "grimaldalejandro4@gmail.com"
+        },
+        {
+            "nombre_apellido":"",
+            "dni": null,
+            "fecha_nacimiento": "",
+            "domicilio": "",
+            "telefono": null,
+            "email": ""
+        }
+
+]
+}

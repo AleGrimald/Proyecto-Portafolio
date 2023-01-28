@@ -5,8 +5,9 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Registro</title>
-    <link rel="stylesheet" href="css/registro.css">
-    <link rel="stylesheet" href="css/registro2.css">
+    <link rel="stylesheet" href="css/registro/registro-datos-personales.css">
+    <link rel="stylesheet" href="css/registro/registro-formacion.css">
+    <link rel="stylesheet" href="css/registro/registro-links.css">
 </head>
 <body>
     <header>
@@ -27,12 +28,12 @@
 
         <div class="contenedor-datPersonales">
             <form action="" class="form-datos">
-                <input type="text" name="" id="" class="inp-datos" placeholder="Nombre y Apellido" autofocus>
-                <input type="number" name="" id="" class="inp-datos" placeholder="Dni">
-                <input type="date" name="fechaNacimiento" id="" class="inp-datos">
-                <input type="text" name="" id="" class="inp-datos" placeholder="Domicilio">
-                <input type="tel" name="" id="" class="inp-datos" placeholder="Telefono / Celular">
-                <input type="email" name="" id="" class="inp-datos" placeholder="Email">
+                <input type="text" name="" id="nombreapellido" class="inp-datos" placeholder="Nombre y Apellido" autofocus>
+                <input type="number" name="" id="dni" class="inp-datos" placeholder="Dni">
+                <input type="date" name="fechaNacimiento" id="fechanacimiento" class="inp-datos">
+                <input type="text" name="" id="domicilio" class="inp-datos" placeholder="Domicilio">
+                <input type="tel" name="" id="telefono" class="inp-datos" placeholder="Telefono / Celular">
+                <input type="email" name="" id="email" class="inp-datos" placeholder="Email">
             </form>
             <div class="contenedor-btnsiguiente">
                 <button id="btnSiguiente" class="btnSiguiente">Siguiente >>></button>
@@ -68,15 +69,15 @@
 
         <div class="contenedor-links ocultar">
             <div class="contenedor-inplink">
-                <input type="text" id="myInput" class="inp-link" placeholder="Titulo o Certificaciones..." autofocus>
+                <input type="text" id="inp-link" class="inp-link" placeholder="Links de proyectos Github, linkedi, etc..." autofocus>
             </div>
 
             <div class="contenedor-agregarlink">
                 <button class="btn-agregarlink">Agregar +</button>
             </div>
 
-            <div class="contenedor-lista2">
-                <ul id="myUL2" class="lista-nueva2">
+            <div class="contenedor-listalink">
+                <ul id="lista-link" class="lista-link">
                     <li>Hit the gym</li>
                     <li>Pay bills</li>
                     <li>Meet George</li>
@@ -84,6 +85,10 @@
                     <li>Read a book</li>
                     <li>Organize office</li>
                 </ul>
+            </div>
+
+            <div class="contenedor-finalizar">
+                <button class="btn-finalizar" id="btn-finalizar">Finalizar</button>
             </div>
 
         </div>
@@ -96,6 +101,11 @@
 
 
 
-    <script src="js/registro.js"></script>
+    <script src="js/siguiente-reg1.js"></script>
+    <script src="js/agregar-formacion.js"></script>
+    <script src="js/siguiente-reg2.js"></script>
+    <script src="js/agregar-link.js"></script>
+    
+    <script src="js/datos-captura.js"></script>
 </body>
 </html>
